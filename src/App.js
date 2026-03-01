@@ -139,7 +139,7 @@ function PromptPreview({ isExpanded, selectedNode }) {
  * @returns {JSX.Element} LLM 运行面板 UI
  */
 function PromptRun({ promptContent }) {
-  const [apiKey, setApiKey] = useState('sk-Ah9yPAuefjSANrvG5bAcCc74C36c4aCaAd4c61305367DfA1');
+  const [apiKey, setApiKey] = useState('');
   const [apiBase, setApiBase] = useState('https://aihubmix.com/v1');
   const [model, setModel] = useState('gemini-2.0-flash-free');
   const [temperature, setTemperature] = useState(0.7);
