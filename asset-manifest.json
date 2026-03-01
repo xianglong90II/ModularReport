@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ModularReport/static/css/main.a346b8a6.css",
+    "main.js": "/ModularReport/static/js/main.a00481d1.js",
+    "static/js/179.d5bced91.chunk.js": "/ModularReport/static/js/179.d5bced91.chunk.js",
+    "static/js/839.7685b75a.chunk.js": "/ModularReport/static/js/839.7685b75a.chunk.js",
+    "static/js/709.21662608.chunk.js": "/ModularReport/static/js/709.21662608.chunk.js",
+    "static/js/797.364acedc.chunk.js": "/ModularReport/static/js/797.364acedc.chunk.js",
+    "static/js/60.7ae22ad9.chunk.js": "/ModularReport/static/js/60.7ae22ad9.chunk.js",
+    "static/js/533.42344c6d.chunk.js": "/ModularReport/static/js/533.42344c6d.chunk.js",
+    "static/js/517.964d34f7.chunk.js": "/ModularReport/static/js/517.964d34f7.chunk.js",
+    "static/js/453.d7de9a18.chunk.js": "/ModularReport/static/js/453.d7de9a18.chunk.js",
+    "static/media/logo.png": "/ModularReport/static/media/logo.fe66769e6a343c60a4cd.png",
+    "index.html": "/ModularReport/index.html",
+    "main.a346b8a6.css.map": "/ModularReport/static/css/main.a346b8a6.css.map",
+    "main.a00481d1.js.map": "/ModularReport/static/js/main.a00481d1.js.map",
+    "453.d7de9a18.chunk.js.map": "/ModularReport/static/js/453.d7de9a18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a346b8a6.css",
+    "static/js/main.a00481d1.js"
+  ]
+}

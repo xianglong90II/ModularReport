@@ -1,0 +1,38 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="ページ1" id="WfO0r0flnAit4D0aASKH">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ee69oAyyrdycM0oAFPR2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;gradientColor=none;fontColor=#000000;labelBorderColor=none;fillStyle=auto;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;node&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;canvas&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="370" width="540" x="50" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee69oAyyrdycM0oAFPR2-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="module&lt;br&gt;library" vertex="1">
+          <mxGeometry height="370" width="90" x="50" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee69oAyyrdycM0oAFPR2-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#000000;strokeWidth=2;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;prompt&lt;br&gt;preview&lt;/font&gt;" vertex="1">
+          <mxGeometry height="370" width="130" x="460" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee69oAyyrdycM0oAFPR2-52" parent="1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1">
+          <mxGeometry width="160" x="180" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee69oAyyrdycM0oAFPR2-58" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;rounded=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" value="SWOT" vertex="1">
+          <mxGeometry height="120" width="170" x="230" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee69oAyyrdycM0oAFPR2-59" parent="Ee69oAyyrdycM0oAFPR2-58" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="170" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee69oAyyrdycM0oAFPR2-60" parent="Ee69oAyyrdycM0oAFPR2-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=default;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;align=left;" value="&lt;div&gt;&amp;gt; Prev Node (opt)&lt;/div&gt;&amp;gt; Data (opt)" vertex="1">
+          <mxGeometry height="90" width="85" as="geometry">
+            <mxRectangle height="90" width="85" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ee69oAyyrdycM0oAFPR2-65" parent="Ee69oAyyrdycM0oAFPR2-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=default;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;align=left;" vertex="1">
+          <mxGeometry height="90" width="85" x="85" as="geometry">
+            <mxRectangle height="90" width="85" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
