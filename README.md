@@ -2,6 +2,9 @@
 
 ![logo](logo.png)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K41V52DS)
+
+
 **English**
 -----------
 
@@ -152,44 +155,6 @@ Assess talents → Apply development frameworks → Generate personalized plans
 ### 4. Technical Documentation
 Define architecture → Apply design patterns → Generate technical specifications
 
-## Performance & Security
-
-### Performance Metrics
-- Initial load: ~2-3 seconds
-- Module drag/drop: <100ms response
-- LLM API calls: 5-30 seconds (depends on model)
-- Results handling: <200ms
-
-### Security
-- API keys use password-input fields
-- No keys stored in code or version control
-- Supports local LLM deployments for privacy
-- HTTPS recommended for production
-
-## Browser Support
-
-- Chrome 90+
-- Firefox 85+
-- Safari 14+
-- Edge 90+
-
-## Project Structure
-
-```
-src/
-├── components/         # React components
-├── hooks/             # Custom React Hooks
-│   ├── useCanvasState.js
-│   └── useNodeManagement.js
-├── utils/             # Utility functions
-│   ├── constants.js
-│   ├── contentExtraction.js
-│   └── nodeHelpers.js
-├── modulenodes/       # Module definitions (JSON)
-├── App.js             # Main application (with PromptRun)
-├── App.css            # Application styles
-└── index.js
-```
 
 ## Development
 
@@ -204,8 +169,7 @@ npm run eject    # Eject from create-react-app
 
 ### Contributing
 
-Contributions are welcome! Please refer to [DEVELOPMENT.md](DEVELOPMENT.md) for coding standards and guidelines.
-
+Contributions are welcome! 
 ## Future Roadmap
 
 - [ ] Streaming LLM responses
@@ -235,25 +199,21 @@ Contributions are welcome! Please refer to [DEVELOPMENT.md](DEVELOPMENT.md) for 
 - Check browser permissions
 - Try refreshing the page
 
-More help: See [PROMPT_RUN_GUIDE.md](PROMPT_RUN_GUIDE.md) FAQ section
-
 ## License
 
 MIT License - see LICENSE file for details
 
 ## Support & Feedback
 
-- 📧 Email: feedback@modularreport.dev
-- 🐛 Issue Tracker: [GitHub Issues](https://github.com/your-repo/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-repo/discussions)
+- 📧 Email: xianglong90233@gmail.com
+- 💬 QQ group: 1074782831
 
 ## Version History
 
-- **v1.1** (Feb 2026) - Added LLM integration with PromptRun component
 - **v1.0** (Initial) - Core node-based modular system
 
 ---
 
-**Last Updated**: February 11, 2026  
-**Current Version**: 1.1  
+**Last Updated**: March 1, 2026  
+**Current Version**: 1.0  
 **Status**: Active Development
