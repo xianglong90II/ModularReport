@@ -1,0 +1,40 @@
+{
+  "moduleNodes": [
+    {
+      "defaultPrompt": "[Assessment] Capability assessment\n[Strength] Key strengths\n[Development] Development areas\n[Potential] Growth potential",
+      "description": "人才能力评估框架",
+      "id": "TALENT_ASSESS",
+      "type": "analysis",
+      "input": ["employee profile"],
+      "name": "人才评估",
+      "output": ["assessment result"],
+      "placeholders": ["Assessment", "Strength", "Development", "Potential"],
+      "tags": ["hr", "evaluation"],
+      "category": "HR"
+    },
+    {
+      "defaultPrompt": "[Current] Current compensation\n[Market] Market rate analysis\n[Adjustment] Recommended adjustment\n[Benefits] Benefits analysis",
+      "description": "薪酬分析和建议框架",
+      "id": "SALARY_ANALYSIS",
+      "type": "analysis",
+      "input": ["salary data"],
+      "name": "薪酬分析",
+      "output": ["analysis result"],
+      "placeholders": ["Current", "Market", "Adjustment", "Benefits"],
+      "tags": ["compensation", "analysis"],
+      "category": "HR"
+    },
+    {
+      "defaultPrompt": "[Goal] Learning goal\n[Current] Current skill level\n[Plan] Development plan\n[Resource] Required resources\n[Timeline] Timeline",
+      "description": "员工发展规划框架",
+      "id": "DEV_PLAN",
+      "type": "analysis",
+      "input": ["development context"],
+      "name": "发展规划",
+      "output": ["plan"],
+      "placeholders": ["Goal", "Current", "Plan", "Resource", "Timeline"],
+      "tags": ["development", "planning"],
+      "category": "HR"
+    }
+  ]
+}

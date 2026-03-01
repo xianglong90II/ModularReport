@@ -1,0 +1,40 @@
+{
+  "moduleNodes": [
+    {
+      "defaultPrompt": "[Revenue] Revenue analysis\n[Cost] Cost structure\n[Margin] Profit margins\n[Forecast] Financial forecast\n[Risk] Financial risks",
+      "description": "财务分析和预测框架",
+      "id": "FIN_ANALYSIS",
+      "type": "analysis",
+      "input": ["financial data"],
+      "name": "财务分析",
+      "output": ["analysis result"],
+      "placeholders": ["Revenue", "Cost", "Margin", "Forecast", "Risk"],
+      "tags": ["finance", "analysis"],
+      "category": "Finance"
+    },
+    {
+      "defaultPrompt": "[Budget] Budget allocation\n[Plan] Spending plan\n[Monitor] Monitoring strategy\n[Control] Control measures",
+      "description": "预算规划和监控",
+      "id": "BUDGET_PLAN",
+      "type": "analysis",
+      "input": ["budget context"],
+      "name": "预算规划",
+      "output": ["budget plan"],
+      "placeholders": ["Budget", "Plan", "Monitor", "Control"],
+      "tags": ["budgeting", "planning"],
+      "category": "Finance"
+    },
+    {
+      "defaultPrompt": "[Income] Income statement analysis\n[Balance] Balance sheet analysis\n[Cash] Cash flow analysis\n[Ratio] Financial ratios",
+      "description": "财务报表分析框架",
+      "id": "FIN_REPORT",
+      "type": "analysis",
+      "input": ["financial statements"],
+      "name": "财务报表",
+      "output": ["report"],
+      "placeholders": ["Income", "Balance", "Cash", "Ratio"],
+      "tags": ["reporting", "analysis"],
+      "category": "Finance"
+    }
+  ]
+}

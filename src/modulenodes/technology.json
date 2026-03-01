@@ -1,0 +1,224 @@
+{
+  "moduleNodes": [
+    {
+      "name": "Pros and Cons",
+      "id": "31",
+      "description": "A simple balance sheet to compare the advantages and disadvantages of a technology or solution.",
+      "defaultPrompt": "Evaluate the solution:\n\n[Pros] Advantages and benefits\n[Cons] Disadvantages and risks",
+      "input": ["text"],
+      "placeholders": ["Pros", "Cons"],
+      "output": ["Pros", "Cons", "All"],
+      "tags": ["technology", "decision"],
+      "category": "Technology"
+    },
+    {
+      "name": "ADR (Architecture Decision Record)",
+      "id": "32",
+      "description": "Captures a decision, including the context and the consequences of the choice.",
+      "defaultPrompt": "Record the architectural decision:\n\n[Context] What is the problem?\n[Decision] What is the change?\n[Status] Proposed/Accepted/Deprecated\n[Consequences] Impact after applying the decision",
+      "input": ["text"],
+      "placeholders": ["Context", "Decision", "Status", "Consequences"],
+      "output": ["Context", "Decision", "Status", "Consequences", "All"],
+      "tags": ["technology", "decision", "strategy"],
+      "category": "Technology"
+    },
+    {
+      "name": "RFC (Request for Comments)",
+      "id": "33",
+      "description": "A document used to propose a new standard or feature to get team feedback.",
+      "defaultPrompt": "Propose a new feature:\n\n[Abstract] Short summary\n[Motivation] Why do we need this?\n[Design] Technical details\n[Drawbacks] Potential downsides",
+      "input": ["text"],
+      "placeholders": ["Abstract", "Motivation", "Design", "Drawbacks"],
+      "output": ["Abstract", "Motivation", "Design", "Drawbacks", "All"],
+      "tags": ["technology", "strategy"],
+      "category": "Technology"
+    },
+    {
+      "name": "Given-When-Then",
+      "id": "34",
+      "description": "A framework for writing test cases or behavior specifications (BDD).",
+      "defaultPrompt": "Define the behavior:\n\n[Given] Precondition or context\n[When] The action performed\n[Then] The expected outcome",
+      "input": ["text"],
+      "placeholders": ["Given", "When", "Then"],
+      "output": ["Given", "When", "Then", "All"],
+      "tags": ["coding", "technology"],
+      "category": "Technology"
+    },
+    {
+      "name": "API Design (Resource-Action)",
+      "id": "35",
+      "description": "Standard framework for documenting RESTful API endpoints.",
+      "defaultPrompt": "Define the endpoint:\n\n[Endpoint] URL and Method\n[Request] Parameters and Headers\n[Response] Status codes and JSON Body\n[Errors] Potential error messages",
+      "input": ["text"],
+      "placeholders": ["Endpoint", "Request", "Response", "Errors"],
+      "output": ["Endpoint", "Request", "Response", "Errors", "All"],
+      "tags": ["coding", "technology"],
+      "category": "Technology"
+    },
+    {
+      "name": "Troubleshooting (Symptom-Cause-Solution)",
+      "id": "36",
+      "description": "Framework for documenting bugs or production issues.",
+      "defaultPrompt": "Document the fix:\n\n[Symptom] What is the user seeing?\n[Cause] Why is this happening?\n[Solution] How to fix or work around it",
+      "input": ["text"],
+      "placeholders": ["Symptom", "Cause", "Solution"],
+      "output": ["Symptom", "Cause", "Solution", "All"],
+      "tags": ["technology", "coding"],
+      "category": "Technology"
+    },
+    {
+      "name": "User Stories (Role-Goal-Benefit)",
+      "id": "37",
+      "description": "A way to describe a feature from the perspective of the end user.",
+      "defaultPrompt": "Write the user story:\n\n[As] Type of user (Role)\n[IWant] The feature (Goal)\n[SoThat] The value (Benefit)",
+      "input": ["text"],
+      "placeholders": ["As", "IWant", "SoThat"],
+      "output": ["As", "IWant", "SoThat", "All"],
+      "tags": ["strategy", "technology"],
+      "category": "Technology"
+    },
+    {
+      "name": "Impact Mapping",
+      "id": "38",
+      "description": "A strategic planning technique that prevents organizations from getting lost while building products.",
+      "defaultPrompt": "Map the impact:\n\n[Goal] Why are we doing this?\n[Actor] Who can help or obstruct?\n[Impact] How should their behavior change?\n[Deliverable] What will we build?",
+      "input": ["text"],
+      "placeholders": ["Goal", "Actor", "Impact", "Deliverable"],
+      "output": ["Goal", "Actor", "Impact", "Deliverable", "All"],
+      "tags": ["strategy", "decision"],
+      "category": "Technology"
+    },
+    {
+      "name": "C4 Model (Context-Container)",
+      "id": "39",
+      "description": "A framework for visualizing software architecture at different levels.",
+      "defaultPrompt": "Describe the architecture:\n\n[Context] System and its users\n[Container] Applications and Data stores\n[Component] Internal modules\n[Code] Implementation details",
+      "input": ["text"],
+      "placeholders": ["Context", "Container", "Component", "Code"],
+      "output": ["Context", "Container", "Component", "Code", "All"],
+      "tags": ["technology", "strategy", "coding"],
+      "category": "Technology"
+    },
+    {
+      "name": "Post-mortem (Incident Report)",
+      "id": "40",
+      "description": "A framework for analyzing a system failure to prevent future occurrences.",
+      "defaultPrompt": "Analyze the incident:\n\n[Summary] What happened?\n[Impact] How many users were affected?\n[RootCause] Why did it happen?\n[ActionItems] How will we prevent this?",
+      "input": ["text"],
+      "placeholders": ["Summary", "Impact", "RootCause", "ActionItems"],
+      "output": ["Summary", "Impact", "RootCause", "ActionItems", "All"],
+      "tags": ["technology", "decision", "strategy"],
+      "category": "Technology"
+    },
+    {
+      "name": "Risk Matrix (Impact-Probability)",
+      "id": "41",
+      "description": "A tool used to assess the level of risk by considering the probability of occurrence and the severity of impact.",
+      "defaultPrompt": "Assess the risk:\n\n[Prob] Probability: How likely is it to happen?\n[Impact] Severity: How bad is the consequence?\n[Level] Risk Score: (Prob x Impact)\n[Mitigation] Planned response",
+      "input": ["text"],
+      "placeholders": ["Prob", "Impact", "Level", "Mitigation"],
+      "output": ["Prob", "Impact", "Level", "Mitigation", "All"],
+      "tags": ["strategy", "decision"],
+      "category": "Technology"
+    },
+    {
+      "name": "FMEA (Failure Mode and Effects Analysis)",
+      "id": "42",
+      "description": "A step-by-step approach for identifying all possible failures in a design, manufacturing, or assembly process.",
+      "defaultPrompt": "Analyze failure modes:\n\n[Failure] What could go wrong?\n[Effect] What is the consequence?\n[Cause] Why would it fail?\n[Detection] How can we spot it early?",
+      "input": ["text"],
+      "placeholders": ["Failure", "Effect", "Cause", "Detection"],
+      "output": ["Failure", "Effect", "Cause", "Detection", "All"],
+      "tags": ["technology", "coding", "analysis"],
+      "category": "Technology"
+    },
+    {
+      "name": "Swiss Cheese Model",
+      "id": "43",
+      "description": "A model used in risk analysis where defenses are layers, and failures happen when 'holes' align.",
+      "defaultPrompt": "Analyze system defenses:\n\n[Layers] Existing safety barriers\n[Holes] Weaknesses in each layer\n[Alignment] How the failure bypassed all layers\n[Fix] New barrier design",
+      "input": ["text"],
+      "placeholders": ["Layers", "Holes", "Alignment", "Fix"],
+      "output": ["Layers", "Holes", "Alignment", "Fix", "All"],
+      "tags": ["technology", "strategy"],
+      "category": "Technology"
+    },
+    {
+      "name": "Bowtie Method",
+      "id": "44",
+      "description": "A diagram that visualizes the risk from causes to consequences with a focus on barriers.",
+      "defaultPrompt": "Visualize the risk scenario:\n\n[Threat] What triggers the event?\n[Event] The central loss of control\n[Prevent] Barriers to stop the threat\n[Recover] Barriers to minimize consequence",
+      "input": ["text"],
+      "placeholders": ["Threat", "Event", "Prevent", "Recover"],
+      "output": ["Threat", "Event", "Prevent", "Recover", "All"],
+      "tags": ["strategy", "decision", "technology"],
+      "category": "Technology"
+    },
+    {
+      "name": "Risk Response Strategies",
+      "id": "45",
+      "description": "A framework for choosing the best way to handle a specific risk.",
+      "defaultPrompt": "Choose a response strategy:\n\n[Avoid] Eliminate the threat\n[Transfer] Shift impact to a third party (e.g., insurance)\n[Mitigate] Reduce probability or impact\n[Accept] Acknowledge and prepare for impact",
+      "input": ["text"],
+      "placeholders": ["Avoid", "Transfer", "Mitigate", "Accept"],
+      "output": ["Avoid", "Transfer", "Mitigate", "Accept", "All"],
+      "tags": ["decision", "strategy"],
+      "category": "Technology"
+    },
+    {
+      "name": "Agile (Scrum Framework)",
+      "id": "46",
+      "description": "An iterative approach to project management and software development that helps teams deliver value to their customers faster.",
+      "defaultPrompt": "Plan the sprint:\n\n[Backlog] Product features and requirements\n[Sprint] Current work cycle tasks\n[Done] Definition of done/Acceptance criteria\n[Velocity] Team capacity and speed",
+      "input": ["text"],
+      "placeholders": ["Backlog", "Sprint", "Done", "Velocity"],
+      "output": ["Backlog", "Sprint", "Done", "Velocity", "All"],
+      "tags": ["project management", "strategy", "devops"],
+      "category": "Project Management"
+    },
+    {
+      "name": "Waterfall Model",
+      "id": "47",
+      "description": "A linear and sequential project management approach where each phase must be completed before the next begins.",
+      "defaultPrompt": "Define project phases:\n\n[Req] Requirements documentation\n[Design] System architecture\n[Impl] Coding and integration\n[Ver] Testing and verification",
+      "input": ["text"],
+      "placeholders": ["Req", "Design", "Impl", "Ver"],
+      "output": ["Req", "Design", "Impl", "Ver", "All"],
+      "tags": ["project management", "strategy"],
+      "category": "Project Management"
+    },
+    {
+      "name": "CALMS Framework",
+      "id": "48",
+      "description": "A conceptual framework for assessing an organization's ability to adopt DevOps processes.",
+      "defaultPrompt": "Assess DevOps maturity:\n\n[C] Culture: People and collaboration\n[A] Automation: Tools and toolchains\n[L] Lean: Small batches and flow\n[M] Measurement: Data and monitoring\n[S] Sharing: Knowledge exchange",
+      "input": ["text"],
+      "placeholders": ["C", "A", "L", "M", "S"],
+      "output": ["C", "A", "L", "M", "S", "All"],
+      "tags": ["devops", "technology", "strategy"],
+      "category": "DevOps"
+    },
+    {
+      "name": "CI/CD Pipeline Framework",
+      "id": "49",
+      "description": "A method to frequently deliver apps to customers by introducing automation into the stages of app development.",
+      "defaultPrompt": "Design the pipeline:\n\n[Build] Compilation and dependencies\n[Test] Unit and integration tests\n[Deploy] Release to environments\n[Monitor] Performance and error tracking",
+      "input": ["text"],
+      "placeholders": ["Build", "Test", "Deploy", "Monitor"],
+      "output": ["Build", "Test", "Deploy", "Monitor", "All"],
+      "tags": ["devops", "coding", "technology"],
+      "category": "DevOps"
+    },
+    {
+      "name": "Kanban Method",
+      "id": "50",
+      "description": "A visual system for managing work as it moves through a process, focusing on continuous delivery and efficiency.",
+      "defaultPrompt": "Manage workflow:\n\n[Todo] Tasks ready to start\n[InProgress] Active work\n[WIP] Work-in-progress limits\n[LeadTime] Time from start to finish",
+      "input": ["text"],
+      "placeholders": ["Todo", "InProgress", "WIP", "LeadTime"],
+      "output": ["Todo", "InProgress", "WIP", "LeadTime", "All"],
+      "tags": ["project management", "devops", "decision"],
+      "category": "Project Management"
+    }
+  ]
+}

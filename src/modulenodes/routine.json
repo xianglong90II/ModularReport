@@ -1,0 +1,169 @@
+{
+  "moduleNodes": [
+    {
+      "name": "STAR Method",
+      "id": "31",
+      "description": "The gold standard for describing experiences in resumes and interviews.",
+      "defaultPrompt": "Describe the achievement:\n\n[S] Situation: The context\n[T] Task: The challenge/goal\n[A] Action: What you specifically did\n[R] Result: Quantifiable outcome",
+      "input": ["text"],
+      "placeholders": ["S", "T", "A", "R"],
+      "output": ["S", "T", "A", "R", "All"],
+      "tags": ["routine", "expression"],
+      "category": "Career Development"
+    },
+    {
+      "name": "SMART Goals",
+      "id": "32",
+      "description": "Framework for setting clear, reachable, and trackable objectives.",
+      "defaultPrompt": "Define the goal:\n\n[S] Specific\n[M] Measurable\n[A] Achievable\n[R] Relevant\n[T] Time-bound",
+      "input": ["text"],
+      "placeholders": ["S", "M", "A", "R", "T"],
+      "output": ["S", "M", "A", "R", "T", "All"],
+      "tags": ["routine", "productivity", "decision"],
+      "category": "Project Management"
+    },
+    {
+      "name": "PREP Framework",
+      "id": "33",
+      "description": "A structure for clear and persuasive business communication/speaking.",
+      "defaultPrompt": "Structure the argument:\n\n[P] Point: Main conclusion\n[R] Reason: Why it matters\n[E] Example: Supporting data/story\n[P] Point: Reiterate conclusion",
+      "input": ["text"],
+      "placeholders": ["P", "R", "E", "P"],
+      "output": ["P", "R", "E", "P", "All"],
+      "tags": ["routine", "expression"],
+      "category": "Soft Skills"
+    },
+    {
+      "name": "Eisenhower Matrix",
+      "id": "34",
+      "description": "Prioritization tool based on Urgency and Importance.",
+      "defaultPrompt": "Categorize tasks:\n\n[Q1] Important & Urgent (Do)\n[Q2] Important & Not Urgent (Schedule)\n[Q3] Not Important & Urgent (Delegate)\n[Q4] Not Important & Not Urgent (Eliminate)",
+      "input": ["text"],
+      "placeholders": ["Q1", "Q2", "Q3", "Q4"],
+      "output": ["Q1", "Q2", "Q3", "Q4", "All"],
+      "tags": ["routine", "productivity", "decision"],
+      "category": "Personal Growth"
+    },
+    {
+      "name": "PDCA Cycle",
+      "id": "35",
+      "description": "Continuous improvement process for quality and execution.",
+      "defaultPrompt": "Manage the project loop:\n\n[P] Plan\n[D] Do\n[C] Check\n[A] Act/Adjust",
+      "input": ["text"],
+      "placeholders": ["P", "D", "C", "A"],
+      "output": ["P", "D", "C", "A", "All"],
+      "tags": ["routine", "productivity"],
+      "category": "Project Management"
+    },
+    {
+      "name": "5 Whys Root Cause",
+      "id": "36",
+      "description": "Iterative interrogative technique used to explore the cause-and-effect relationships.",
+      "defaultPrompt": "Find the root cause of [Issue]:\n\n[W1] Why 1?\n[W2] Why 2?\n[W3] Why 3?\n[W4] Why 4?\n[W5] Why 5 (Root Cause)?",
+      "input": ["text"],
+      "placeholders": ["W1", "W2", "W3", "W4", "W5"],
+      "output": ["W1", "W2", "W3", "W4", "W5", "All"],
+      "tags": ["routine", "decision", "productivity"],
+      "category": "Thinking"
+    },
+    {
+      "name": "MECE Principle",
+      "id": "37",
+      "description": "A grouping principle for separating a set of items into subsets that are Mutually Exclusive and Collectively Exhaustive.",
+      "defaultPrompt": "Deconstruct the problem:\n\n[ME] Mutually Exclusive (No overlaps)\n[CE] Collectively Exhaustive (No gaps)",
+      "input": ["text"],
+      "placeholders": ["ME", "CE"],
+      "output": ["ME", "CE", "All"],
+      "tags": ["routine", "decision", "expression"],
+      "category": "Thinking"
+    },
+    {
+      "name": "SCAMPER",
+      "id": "38",
+      "description": "Creative thinking technique for product/process innovation.",
+      "defaultPrompt": "Ideate improvements:\n\n[S] Substitute\n[C] Combine\n[A] Adapt\n[M] Modify\n[P] Put to another use\n[E] Eliminate\n[R] Reverse",
+      "input": ["text"],
+      "placeholders": ["S", "C", "A", "M", "P", "E", "R"],
+      "output": ["S", "C", "A", "M", "P", "E", "R", "All"],
+      "tags": ["routine", "decision", "productivity"],
+      "category": "Thinking"
+    },
+    {
+      "name": "Pareto Principle (80/20)",
+      "id": "39",
+      "description": "Identifying the 20% of inputs that produce 80% of the results.",
+      "defaultPrompt": "Analyze efficiency:\n\n[Inputs] Critical 20% tasks\n[Outputs] Major 80% results",
+      "input": ["text"],
+      "placeholders": ["Inputs", "Outputs"],
+      "output": ["Inputs", "Outputs", "All"],
+      "tags": ["routine", "productivity", "decision"],
+      "category": "Personal Growth"
+    },
+    {
+      "name": "GROW Model",
+      "id": "40",
+      "description": "Framework used in coaching and mentoring to unlock potential.",
+      "defaultPrompt": "Set the coaching path:\n\n[G] Goal: Objective\n[R] Reality: Current situation\n[O] Options: Possible actions\n[W] Will: Way forward/Commitment",
+      "input": ["text"],
+      "placeholders": ["G", "R", "O", "W"],
+      "output": ["G", "R", "O", "W", "All"],
+      "tags": ["routine", "expression", "decision"],
+      "category": "Soft Skills"
+    },
+    {
+      "name": "5W2H Analysis",
+      "id": "41",
+      "description": "A comprehensive checklist for project planning and reporting.",
+      "defaultPrompt": "Detail the plan:\n\n[W1] What\n[W2] Why\n[W3] Where\n[W4] When\n[W5] Who\n[H1] How\n[H2] How Much",
+      "input": ["text"],
+      "placeholders": ["W1", "W2", "W3", "W4", "W5", "H1", "H2"],
+      "output": ["W1", "W2", "W3", "W4", "W5", "H1", "H2", "All"],
+      "tags": ["routine", "productivity", "expression"],
+      "category": "Project Management"
+    },
+    {
+      "name": "Six Thinking Hats",
+      "id": "42",
+      "description": "Tool for group discussion and individual thinking involving six distinct perspectives.",
+      "defaultPrompt": "Explore the idea:\n\n[White] Facts/Data\n[Red] Emotions/Intuition\n[Black] Risks/Critique\n[Yellow] Benefits/Optimism\n[Green] Creativity/Alternatives\n[Blue] Control/Process",
+      "input": ["text"],
+      "placeholders": ["White", "Red", "Black", "Yellow", "Green", "Blue"],
+      "output": ["White", "Red", "Black", "Yellow", "Green", "Blue", "All"],
+      "tags": ["routine", "decision", "expression"],
+      "category": "Thinking"
+    },
+    {
+      "name": "OKRs",
+      "id": "43",
+      "description": "Objectives and Key Results: A goal-setting framework used by Google.",
+      "defaultPrompt": "Define high-level goals:\n\n[O] Objective: Inspirational goal\n[KR1] Key Result 1: Metric-based\n[KR2] Key Result 2: Metric-based",
+      "input": ["text"],
+      "placeholders": ["O", "KR1", "KR2"],
+      "output": ["O", "KR1", "KR2", "All"],
+      "tags": ["routine", "productivity", "decision"],
+      "category": "Project Management"
+    },
+    {
+      "name": "First Principles Thinking",
+      "id": "44",
+      "description": "Breaking down complex problems into basic elements and reassembling them from scratch.",
+      "defaultPrompt": "Deconstruct the situation:\n\n[Assumptions] Common beliefs\n[Truths] Fundamental facts\n[Build] New solution from scratch",
+      "input": ["text"],
+      "placeholders": ["Assumptions", "Truths", "Build"],
+      "output": ["Assumptions", "Truths", "Build", "All"],
+      "tags": ["routine", "decision"],
+      "category": "Thinking"
+    },
+    {
+      "name": "Circle of Competence",
+      "id": "45",
+      "description": "Identifying the limit of one's knowledge to improve decision making.",
+      "defaultPrompt": "Evaluate the domain:\n\n[Inside] What I know well\n[Edge] What I think I know\n[Outside] What I don't know",
+      "input": ["text"],
+      "placeholders": ["Inside", "Edge", "Outside"],
+      "output": ["Inside", "Edge", "Outside", "All"],
+      "tags": ["routine", "decision", "productivity"],
+      "category": "Personal Growth"
+    }
+  ]
+}

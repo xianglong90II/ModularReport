@@ -1,0 +1,39 @@
+{
+  "moduleNodes": [
+    {
+      "defaultPrompt": "Executive Summary\n\nThis template provides a quick overview of key points.\n\n---\n\nKey Points:\n1. First key point\n2. Second key point\n3. Third key point",
+      "description": "执行摘要模板，用于快速概览",
+      "id": "EXEC_SUMMARY",
+      "type": "template",
+      "input": [],
+      "name": "执行摘要",
+      "output": ["summary"],
+      "tags": ["template", "reporting"],
+      "category": "Memes"
+    },
+    {
+      "defaultPrompt": "[Context] Context and background\n[Insight] Key insights\n[Recommendation] Recommendation\n[Implementation] Implementation approach\n[Expected] Expected outcomes",
+      "description": "咨询报告标准模板",
+      "id": "CONSULTING_REPORT",
+      "type": "template",
+      "input": ["analysis context"],
+      "name": "咨询报告",
+      "output": ["report"],
+      "placeholders": ["Context", "Insight", "Recommendation", "Implementation", "Expected"],
+      "tags": ["template", "consulting"],
+      "category": "Memes"
+    },
+    {
+      "defaultPrompt": "[Decision] Decision to be made\n[Options] Available options\n[Pros] Pros and cons\n[Recommendation] Recommended option\n[Rationale] Rationale behind recommendation",
+      "description": "决策框架模板",
+      "id": "DECISION_FRAMEWORK",
+      "type": "template",
+      "input": ["decision context"],
+      "name": "决策框架",
+      "output": ["decision doc"],
+      "placeholders": ["Decision", "Options", "Pros", "Recommendation", "Rationale"],
+      "tags": ["template", "decision"],
+      "category": "Memes"
+    }
+  ]
+}
